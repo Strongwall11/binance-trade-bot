@@ -3,7 +3,6 @@ from datetime import datetime, timedelta
 from traceback import format_exc
 from typing import Dict
 
-from sqlitedict import SqliteDict
 
 from .binance_api_manager import BinanceAPIManager
 from .binance_stream_manager import BinanceOrder
